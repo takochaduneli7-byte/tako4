@@ -23,33 +23,50 @@ list-style-type: none;
     display: block;
     border-radius: 300px;
 }
-.animal
-{
-  width: 300px;
-  animation: animal 2s linear infinite;
+.animal {
+    width: 300px;
+    animation: animal 2s linear infinite;
 }
 
 @keyframes animal {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
 }
 .animal:hover {
-  animation: spin 1s linear infinite;
+  animation: animal 1s linear infinite;
 }
 .text
 {
    font-size: 15px;
    color: blue;
    width: 600px;
-  
+   margin-left: 500px;
+}
+.animal2 {
+    width: 300px;
+    animation: animal2 2s linear infinite;
+}
+@keyframes animal2 {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(-360deg);
+    }
 }
 .animal2
 {
-    max-width: 600px;
-    margin-top: 60px;
-    margin-left: 40px;
-    display: block;
-    border-radius: 300px;
+    border-radius: 100px;
 }
-
-
+p
+{
+    font-size: 15px;
+    color: darkmagenta;
+    width: 600px;
+    margin-left: 500px;
+    margin-bottom: 30px;
+}
